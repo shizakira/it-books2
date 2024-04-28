@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="source/styles/main.css">
+    <link rel="stylesheet" href="source/styles/topnav-style.css">
+    <link rel="stylesheet" href="source/styles/footer.style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="left-nav">
+            <a class="active" href="#">Home</a>
+            <a href="pages/news.html">Catalog</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+
+        <div class="logo">
+            <h1>IT Books &lt;/&gt;
+            </h1>
+        </div>
+
+        <div class="right-nav">
+            <div class="search-container">
+                <form action="#">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit">Submit</i></button>
+                </form>
+            </div>
+            <div class="shopping-cart">
+                <p>&#128722; <sup>0</sup></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="new-items">
+            <h2>Новинки</h2>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="source/img/astra-linux.jpg" class="item-img" alt="...">
+                        </div>
+                        <div class="col-md-7">
+                            <p>В книге 30 уроков для пользователей, начинающих осваивать популярный отечественный
+                                дистрибутив Astra Linux. С позиции
+                                пользователя описано решение типичных задач – от установки дистрибутива и настройки
+                                графического интерфейса Fly до
+                                простейшего администрирования системы. Рассмотрены настольные приложения, такие как
+                                офисный пакет LibreOffice,
+                                графический редактор GIMP, мультимедиа-программы для просмотра видео и воспроизведения
+                                музыки. Приведены инструкции по
+                                запуску Windows-приложений и установке популярных мессенджеров (Skype, Telegram, Viber)
+                                на компьютер. Также затронуты
+                                вопросы, установки ОС на физический и виртуальный компьютер, подключения двух мониторов
+                                и других дополнительных
+                                устройств. Для закрепления материала даны контрольные вопросы и самостоятельные
+                                упражнения.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="source/img/php8.jpg" class="item-img" alt="...">
+                        </div>
+                        <div class="col-md-7">
+                            <p>На практических примерах описано создание веб-приложений на языке PHP версии 8.x. Даны
+                                начала разработки на PHP:
+                                установка и настройка Apache 2.4, PHP, MySQL и кроссплатформенной сборки XAMPP, выбор
+                                редактора PHP-кода, синтаксис
+                                языка, самые полезные функции и нововведения PHP 8.x. Рассмотрено создание
+                                веб-приложений с использованием популярного
+                                фреймворка Laravel и шаблонизатора Blade. В качестве хранилища данных использованы два
+                                сервера – самая современная
+                                версия MySQL и набирающая популярность СУБД MongoDB. Раскрыты особенности создания
+                                индикатора загрузки файла и
+                                разыменовывания массивов, приведены примеры устранения типичных SEO-ошибок, допускаемых
+                                программистами, описана работа с
+                                PDO, JSON, MP3, Curl, MobileDetec Особое внимание уделяется безопасности веб-приложений
+                                – рассматривается, как уберечь
+                                их от основных атак, как установить SSL-сертификат и как уберечь сам сервер от
+                                неприятностей.
+                                На сайте издательства находятся дополнительные главы, листинги из книги, а также
+                                необходимое программное обеспечение</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="source/img/jquery.jpg" class="item-img" alt="...">
+                        </div>
+                        <div class="col-md-7">
+                            <p>Рассмотрено использование фреймворка jQuery Mobile для создания гибких
+                                мультиплатформенных приложений для различных
+                                мобильных устройств (iPad, Kindle Fire, iPhone, Android и др.). Описано использование
+                                основных компонентов
+                                пользовательского интерфейса, а также его оформление и настройка внешнего вида с помощью
+                                JavaScript, AJAX и CSS3.
+                                Показано создание динамического содержимого с помощью JavaScript, AJAX и библиотеки
+                                jQuery. Уделено внимание
+                                распространению приложений и созданию приложений с возможностью автономной работы
+                                off-line….</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="footer-container">
+
+        <p>@All rights reserved</p>
+        <p class="our-mail">Our email <a href="mailto: example@google.com">example@google.com</a></p>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

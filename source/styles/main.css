@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(/source/img/thunderstorm-3625405_1920.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main-container .video {
+	text-align: center;
+	margin: auto 0;
+}
+
+.main-container .carousel {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1100px;
+	background-color: rgba(2, 2, 2, 0.828);
+}
+
+.carousel-item .item-img {
+	width: 400px;
+}
+
+.carousel-item .row .col-md-7 {
+	font-size: 17px;
+	color: white;
+	padding-top: 60px;
+	padding-right: 60px;
+}
+
+.new-items {
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	background-color: rgba(2, 2, 2, 0.346);
+	width: 1100px;
+}
+@media (max-width: 2200px) {
+	body {
+		background-color: rgb(37, 37, 37);
+	}
+}
